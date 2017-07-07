@@ -3,9 +3,10 @@
 
 To run this you must do the following:
 Clone the repo:
+
     git clone https://github.com/Ronin11/TMDBTesting
 
-Create a file named keys.json with your API keys in the following format:
+Create a file in the root directory named keys.json with your API keys in the following format:
 
     {
         "v3": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
