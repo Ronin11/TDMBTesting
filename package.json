@@ -1,0 +1,22 @@
+{
+  "name": "tmdbtesting",
+  "version": "0.0.1",
+  "description": "Test project for SoFi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronin11/TDMBTesting.git"
+  },
+  "author": "Ronin11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronin11/TDMBTesting/issues"
+  },
+  "homepage": "https://github.com/Ronin11/TDMBTesting#readme",
+  "dependencies": {
+    "frisby": "^0.8.5"
+  }
+}
