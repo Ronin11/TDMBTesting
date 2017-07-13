@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Ronin11/TDMBTesting#readme",
   "dependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
     "request": "^2.81.0"
   }
 }
