@@ -1,9 +1,13 @@
-var tmdbBaseSuite = require('../tmdbBaseSuite');
+"use strict";
+var TmdbBaseSuite = require('../tmdbBaseSuite');
 
-exports.TmdbV3BaseSuite = function(name){
-	this = new tmdbBaseSuite.TmdbBaseSuite(name);
-	this.baseUrl += "3/";
-	this.keyString = function(){
-		return "?api_key=" + this.keys.v3;
+class TmdbV3BaseSuite extends TmdbBaseSuite{
+	constructor(name){
+		super(name);
+		this.urlFooter = "?api_key=" + this.keys.v3;
+		delete this.keys;
+		this.baseUrl += "3/";
 	}
 }
+
+module.exports = TmdbV3BaseSuite;

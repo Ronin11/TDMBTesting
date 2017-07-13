@@ -4,7 +4,7 @@
   "description": "Test project for SoFi",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha runner.js --timeout 30000"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Ronin11/TDMBTesting#readme",
   "dependencies": {
-    "frisby": "^0.8.5"
+    "frisby": "^0.8.5",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
   },
   "devDependencies": {
     "mocha": "^3.4.2"
