@@ -13,15 +13,12 @@ Create a file in the root directory named keys.json with your API keys in the fo
         "v4": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     }
 
-Install Jasmine with npm:
-
-    npm install -g jasmine-node
-
 Download dependencies:
 
     cd TMDBTesting
     npm install
+    git submodule update --init --recursive
 
 And execute:
 
-    jasmine-node test_spec.js
+    npm test
