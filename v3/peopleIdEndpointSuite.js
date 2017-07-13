@@ -1,6 +1,6 @@
 "use strict";
 var assert = require('assert');
-var requester = require('../TMDBTestingSharedLib/requester');
+var requester = require('../TMDBTestingSharedLib/util/requester');
 var BaseTest = require('../TMDBTestingSharedLib/baseTest');
 var TmdbV3BaseSuite = require('./tmdbV3BaseSuite');
 
