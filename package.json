@@ -17,11 +17,7 @@
   },
   "homepage": "https://github.com/Ronin11/TDMBTesting#readme",
   "dependencies": {
-    "frisby": "^0.8.5",
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.4"
-  },
-  "devDependencies": {
     "mocha": "^3.4.2"
+    "request": "^2.81.0"
   }
 }
