@@ -4,7 +4,7 @@ var requester = require('../TMDBTestingSharedLib/util/requester');
 var BaseTest = require('../TMDBTestingSharedLib/baseTest');
 var TmdbV4BaseSuite = require('./tmdbV4BaseSuite');
 
-var suiteName = "People Id Endpoint Suite";
+var suiteName = "Some V4 Endpoint Suite";
 class SomeV4EndpointSuite extends TmdbV4BaseSuite{
 	constructor(){
 		super(suiteName);
